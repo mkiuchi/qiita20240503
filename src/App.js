@@ -150,7 +150,7 @@ function App() {
               background: 'white',
               borderStyle: 'solid', borderWidth: '1px',
               borderColor: 'white white black black',
-              width: 4/10, overflow: 'hidden'
+              width: 4/10, textOverflow: 'ellipsis', whiteSpace: 'nowrap'
             }}
             primary={objid} />
         <ListItemText
@@ -159,7 +159,7 @@ function App() {
             background: 'white',
             borderStyle: 'solid', borderWidth: '1px',
             borderColor: 'white white black black',
-            width: 2/10, overflow: 'hidden'
+            width: 2/10, textOverflow: 'ellipsis', whiteSpace: 'nowrap'
           }}
           primary={obj["name"]} />
         <ListItemText
@@ -168,7 +168,7 @@ function App() {
             background: 'white',
             borderStyle: 'solid', borderWidth: '1px',
             borderColor: 'white white black black',
-            width: 2/10, overflow: 'hidden'
+            width: 2/10, textOverflow: 'ellipsis', whiteSpace: 'nowrap'
           }}
           primary={obj["orgcode"]} />
         <ListItemText
@@ -177,7 +177,7 @@ function App() {
             background: 'white',
             borderStyle: 'solid', borderWidth: '1px',
             borderColor: 'white white black black',
-            width: 1/10, overflow: 'hidden'
+            width: 1/10, textOverflow: 'ellipsis', whiteSpace: 'nowrap'
           }}
           primary={obj["employee-no"]} />
         <ListItemText
@@ -186,7 +186,7 @@ function App() {
             background: 'white',
             borderStyle: 'solid', borderWidth: '1px',
             borderColor: 'white black black black',
-            width: 1/10, overflow: 'hidden'
+            width: 1/10, textOverflow: 'ellipsis', whiteSpace: 'nowrap'
           }}
           primary={obj["age"]} />
       </ListItem>
@@ -198,7 +198,7 @@ function App() {
         <ListItem sx={{p:0}}>
           <ListItemText
             sx={{
-              p:1, width: 4/10,
+              p:1, width: 4/10, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
               background: 'rgb(200,200,200)',
               borderStyle: 'solid', borderWidth: '1px',
               borderColor: 'rgb(200,200,200) rgb(100,100,100) rgb(200,200,200) rgb(230,230,230)'
@@ -206,7 +206,7 @@ function App() {
             primary={"メールアドレス"} />
           <ListItemText
             sx={{
-              p:1, width: 2/10,
+              p:1, width: 2/10, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
               background: 'rgb(200,200,200)',
               borderStyle: 'solid', borderWidth: '1px',
               borderColor: 'rgb(200,200,200) rgb(100,100,100) rgb(200,200,200) rgb(230,230,230)'
@@ -214,7 +214,7 @@ function App() {
             primary={"氏名"} />
           <ListItemText
             sx={{
-              p:1, width: 2/10,
+              p:1, width: 2/10, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
               background: 'rgb(200,200,200)',
               borderStyle: 'solid', borderWidth: '1px',
               borderColor: 'rgb(200,200,200) rgb(100,100,100) rgb(200,200,200) rgb(230,230,230)'
@@ -222,7 +222,7 @@ function App() {
             primary={"所属"} />
           <ListItemText
             sx={{
-              p:1, width: 1/10,
+              p:1, width: 1/10, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
               background: 'rgb(200,200,200)',
               borderStyle: 'solid', borderWidth: '1px',
               borderColor: 'rgb(200,200,200) rgb(100,100,100) rgb(200,200,200) rgb(230,230,230)'
@@ -230,7 +230,7 @@ function App() {
             primary={"社員番号"} />
           <ListItemText
             sx={{
-              p:1, width: 1/10,
+              p:1, width: 1/10, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
               background: 'rgb(200,200,200)',
               borderStyle: 'solid', borderWidth: '1px',
               borderColor: 'rgb(200,200,200) rgb(100,100,100) rgb(200,200,200) rgb(230,230,230)'
